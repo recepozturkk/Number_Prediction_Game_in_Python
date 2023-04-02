@@ -44,7 +44,6 @@ def start_game(number_prediction = 5):
             number_prediction -= 1
             if (number_prediction==0):
                 break
-
             print("Ascend your prediction!")
         elif (prediction > correct_number):
             number_prediction -= 1
